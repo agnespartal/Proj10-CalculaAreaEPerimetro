@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cálcula Área e Perímetro</string>
+    <string name="circulo">Círculo</string>
+    <string name="Retangulo">Retângulo</string>
+    <string name="base">Base do Retângulo</string>
+    <string name="Altura">Altura de Retângulo</string>
+    <string name="raio">Raio do Círculo</string>
+    <string name="Calcular">Calcular</string>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RetanguloFragment">
+
+    <Button
+        android:id="@+id/btnCalculaRetangulo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="108dp"
+        android:text="@string/Calcular"
+        app:layout_constraintBottom_toTopOf="@+id/txtResultadoRetangulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAltura" />
+
+    <EditText
+        android:id="@+id/txtBase"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginBottom="51dp"
+        android:ems="10"
+        android:hint="@string/base"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toTopOf="@+id/txtAltura"
+        app:layout_constraintStart_toStartOf="@+id/txtAltura"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txtAltura"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="64dp"
+        android:ems="10"
+        android:hint="@string/Altura"
+        android:inputType="numberDecimal"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalculaRetangulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtBase" />
+
+    <TextView
+        android:id="@+id/txtResultadoRetangulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="227dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnCalculaRetangulo"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalculaRetangulo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
